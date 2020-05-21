@@ -206,7 +206,13 @@ body {
   margin-right: 23.81px;
   align-self: center;
   cursor: pointer;
+  border: none;
 
+}
+.btn:hover{
+  background-color: #FFFFFF;
+  border: 2px solid black;
+  color: #000000;
 }
 .arrows {
   max-width: 30%;
@@ -323,6 +329,13 @@ body {
   border-radius: 8px;
   margin: 19.95px 23.81px 20.05px 31.61px;
   cursor: pointer;
+  border: none;
+}
+
+.section_btn:hover{
+  background-color: #FFFFFF;
+  border: 2px solid black;
+  color: #000000;
 }
 .aside{
   margin: 0 auto;
@@ -503,7 +516,14 @@ height: 40px;
 margin-top: 24.22px;
 cursor: pointer;
 margin-bottom: 15.78px;
+border: none;
 }
+.footer__button:hover{
+  background-color: #FFFFFF;
+  border: 2px solid black;
+  color: #000000;
+}
+
 .footer__img{
   margin-top: 24.12px;
 }
